@@ -2,6 +2,7 @@
    Copyright (c) 2021 https://github.com/me-no-dev
    SPDX-License-Identifier: GPL-3.0-or-later
 */
+#if 0
 #ifndef SPIFFSEditor_H_
 #define SPIFFSEditor_H_
 #include <ESPAsyncWebServer.h>
@@ -25,4 +26,5 @@ class SPIFFSEditor: public AsyncWebHandler {
     virtual bool isRequestHandlerTrivial() override final {return false;}
 };
 
+#endif
 #endif

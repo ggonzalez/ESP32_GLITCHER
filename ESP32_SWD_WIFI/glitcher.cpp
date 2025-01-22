@@ -100,6 +100,12 @@ void set_delay(uint32_t delay_us, uint32_t delay_us_end, uint32_t power_off_dela
   _swd_wait_delay = swd_wait_delay;
 }
 
+void set_width(uint32_t _width_start, uint32_t _width_max)
+{
+  width_start = _width_start;
+  width_max = _width_max;
+}
+
 uint32_t get_delay()
 {
   return _delay_us;

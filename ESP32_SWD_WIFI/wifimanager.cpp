@@ -3,7 +3,7 @@
    SPDX-License-Identifier: GPL-3.0-or-later
 */
 #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager/
-#include "../secrets.h"  // import for AP password
+#include "secrets.h"  // import for AP password
 
 #include "wifimanager.h"
 

@@ -2,6 +2,7 @@
    Copyright (c) 2021 https://github.com/me-no-dev
    SPDX-License-Identifier: GPL-3.0-or-later
 */
+#if 0
 #include "SPIFFSEditor.h"
 #include <FS.h>
 
@@ -546,3 +547,4 @@ void SPIFFSEditor::handleUpload(AsyncWebServerRequest *request, const String& fi
     }
   }
 }
+#endif

@@ -70,7 +70,14 @@
         <input type="text" id="swd_wait" name="swd_wait" value="100">
         <button onclick='send("set_delay?delay="+document.getElementById("delay").value+"&delay_end="+document.getElementById("delay_end").value+"&power_off="+document.getElementById("power_off_delay").value+"&swd_wait="+document.getElementById("swd_wait").value)'>Set Glitch
             Delay</button>
-            <br><br>
+        <br><br>
+	<!-- Glitch Width code # www.gabrielcybersecurity.com -->
+        <label for="width_start">Glitch Width Start Value (µs):</label>
+        <input type="text" id="width_start" name="width_start" value="1">
+        <label for="width_max">Glitch Width Max Value (µs):</label>
+        <input type="text" id="width_max" name="width_max" value="30">
+        <button onclick='send("set_width?width_start="+document.getElementById("width_start").value+"&width_max="+document.getElementById("width_max").value)'>Set Glitch Width</button>
+        <br><br>
         <button onclick='send("set_glitcher?state=1")'>Enable Glitcher</button>
 		<button onclick='send("set_glitcher?state=0")'>Disable Glitcher</button>
         <br><br>
